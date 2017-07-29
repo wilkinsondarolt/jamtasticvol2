@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Guard : MonoBehaviour
 {
-    Animator animControl;
+
     public float speed = 5;
     public float waitTime = .3f;
     public float turnSpeed = 90;
@@ -20,9 +20,8 @@ public class Guard : MonoBehaviour
 
     void Start()
     {
-        animControl = GameObject.FindObjectOfType<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        viewAngle = spotlight.spotAngle * 0.8f;
+        viewAngle = spotlight.spotAngle;
         originalSpotlightColour = spotlight.color;
 
         Vector3[] waypoints = new Vector3[pathHolder.childCount];
@@ -33,6 +32,7 @@ public class Guard : MonoBehaviour
         }
 
         StartCoroutine(FollowPath(waypoints));
+
     }
 
     void Update()
@@ -74,18 +74,15 @@ public class Guard : MonoBehaviour
 
         while (true)
         {
-            animControl.SetFloat("MoveInput", 1);
             transform.position = Vector3.MoveTowards(transform.position, targetWaypoint, speed * Time.deltaTime);
             if (transform.position == targetWaypoint)
             {
                 targetWaypointIndex = (targetWaypointIndex + 1) % waypoints.Length;
                 targetWaypoint = waypoints[targetWaypointIndex];
-                animControl.SetFloat("MoveInput", 0);
                 yield return new WaitForSeconds(waitTime);
                 yield return StartCoroutine(TurnToFace(targetWaypoint));
             }
             yield return null;
-            
         }
     }
 
