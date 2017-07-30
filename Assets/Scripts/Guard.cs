@@ -13,6 +13,7 @@ public class Guard : MonoBehaviour
     public float viewDistance;
     public LayerMask viewMask;
     float viewAngle;
+    bool FoundPlayer = false; 
 
     public Transform pathHolder;
     Transform player;
@@ -37,9 +38,22 @@ public class Guard : MonoBehaviour
 
     void Update()
     {
-        if (CanSeePlayer())
+        if (FoundPlayer)
         {
+            StartCoroutine(TurnToFace(player.transform.position));
+            return;
+        }
+            
+        FoundPlayer = CanSeePlayer();
+        if (FoundPlayer)
+        {
+            StopCoroutine(FollowPath(null));
+            StopCoroutine(TurnToFace(this.transform.position));
+
+
+            animControl.SetTrigger("PlayerFound");
             spotlight.color = Color.red;
+
         }
         else
         {
@@ -72,7 +86,7 @@ public class Guard : MonoBehaviour
         Vector3 targetWaypoint = waypoints[targetWaypointIndex];
         transform.LookAt(targetWaypoint);
 
-        while (true)
+        while (! this.FoundPlayer)
         {
             animControl.SetFloat("MoveInput", 1);
             transform.position = Vector3.MoveTowards(transform.position, targetWaypoint, speed * Time.deltaTime);

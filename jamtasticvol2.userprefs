@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="jamtasticvol2.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TopdownCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Guard.cs">
     <Files>
       <File FileName="Assets\Scripts\TopdownCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Guard.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
