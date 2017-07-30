@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 2847
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 2848
+  controlID: 11
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 2849
+  controlID: 12
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,9 +366,9 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 82250000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a865fbffde80fbff2afbffffdefbffff00000000022600001a260000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.19995344, y: 0.008232772, z: -0.0016792265, w: 0.97976935}
     speed: 2
-    m_Value: {x: 0.19995344, y: 0.008232772, z: -0.0016792265, w: 0.97976935}
+    m_Value: {x: -0.19995345, y: -0.008232772, z: 0.0016792266, w: -0.97976935}
   m_Size:
     m_Target: 21.35719
     speed: 2
@@ -511,10 +511,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\Wilki\Documents\Wilkinson\Unity\Projects\jamtasticvol2
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 82250000
-    m_LastClickedID: 9602
-    m_ExpandedIDs: 00000000b62400005e250000b025000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 88260000
+    m_LastClickedID: 9864
+    m_ExpandedIDs: 00000000e22500006a260000b426000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62400005e250000b025000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e22500006a260000b4260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,22 +569,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ea260000e0250000e62500003c3000009e2a0000da2a0000da240000f624000000000000ee240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: AutoTransparent
-      m_OriginalName: AutoTransparent
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22744
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -652,10 +652,8 @@ MonoBehaviour:
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107541081209472306, guid: 6e514e70981417b4388ac968598ebee0, type: 2}
-    - {fileID: 1107573267823931284, guid: 0de365fa0ad5dbd4ebd693ee268ffdcf, type: 2}
     m_ValueSerializationHelper:
     - {x: 560.4, y: 198}
-    - {x: 584.4, y: 130}
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 6e514e70981417b4388ac968598ebee0,
     type: 2}

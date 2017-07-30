@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: 1860e090cf62d054497e015734696f38
+timeCreated: 1501208257
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: belly
+    100006: Blazer01
+    100008: Corpo01
+    100010: foot.L
+    100012: foot.R
+    100014: footTarget.L
+    100016: footTarget.L_end
+    100018: footTarget.R
+    100020: footTarget.R_end
+    100022: footTip.L
+    100024: footTip.L_end
+    100026: footTip.R
+    100028: footTip.R_end
+    100030: footTipTarget.L
+    100032: footTipTarget.L_end
+    100034: footTipTarget.R
+    100036: footTipTarget.R_end
+    100038: forearm.L
+    100040: forearm.R
+    100042: Guard01
+    100044: //RootNode
+    100046: hand.L
+    100048: hand.L_end
+    100050: hand.R
+    100052: hand.R_end
+    100054: head
+    100056: head_end
+    100058: hips
+    100060: knee.L
+    100062: knee.R
+    100064: kneeTarget.L
+    100066: kneeTarget.L_end
+    100068: kneeTarget.R
+    100070: kneeTarget.R_end
+    100072: leg.L
+    100074: leg.R
+    100076: neck
+    100078: shoulder.L
+    100080: shoulder.R
+    100082: torso
+    400000: arm.L
+    400002: arm.R
+    400004: belly
+    400006: Blazer01
+    400008: Corpo01
+    400010: foot.L
+    400012: foot.R
+    400014: footTarget.L
+    400016: footTarget.L_end
+    400018: footTarget.R
+    400020: footTarget.R_end
+    400022: footTip.L
+    400024: footTip.L_end
+    400026: footTip.R
+    400028: footTip.R_end
+    400030: footTipTarget.L
+    400032: footTipTarget.L_end
+    400034: footTipTarget.R
+    400036: footTipTarget.R_end
+    400038: forearm.L
+    400040: forearm.R
+    400042: Guard01
+    400044: //RootNode
+    400046: hand.L
+    400048: hand.L_end
+    400050: hand.R
+    400052: hand.R_end
+    400054: head
+    400056: head_end
+    400058: hips
+    400060: knee.L
+    400062: knee.R
+    400064: kneeTarget.L
+    400066: kneeTarget.L_end
+    400068: kneeTarget.R
+    400070: kneeTarget.R_end
+    400072: leg.L
+    400074: leg.R
+    400076: neck
+    400078: shoulder.L
+    400080: shoulder.R
+    400082: torso
+    4300000: Blazer01
+    4300002: Corpo01
+    7400000: Guard01|FoundYou
+    7400002: Guard01|Idle
+    7400004: Guard01|Walking
+    9500000: //RootNode
+    13700000: Blazer01
+    13700002: Corpo01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Guard01|FoundYou
+      takeName: Guard01|FoundYou
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blazer01
+        weight: 1
+      - path: Corpo01
+        weight: 1
+      - path: Guard01
+        weight: 1
+      - path: Guard01/footTarget.L
+        weight: 1
+      - path: Guard01/footTarget.L/footTarget.L_end
+        weight: 1
+      - path: Guard01/footTarget.R
+        weight: 1
+      - path: Guard01/footTarget.R/footTarget.R_end
+        weight: 1
+      - path: Guard01/footTipTarget.L
+        weight: 1
+      - path: Guard01/footTipTarget.L/footTipTarget.L_end
+        weight: 1
+      - path: Guard01/footTipTarget.R
+        weight: 1
+      - path: Guard01/footTipTarget.R/footTipTarget.R_end
+        weight: 1
+      - path: Guard01/hips
+        weight: 1
+      - path: Guard01/hips/belly
+        weight: 1
+      - path: Guard01/hips/belly/torso
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head/head_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: Guard01/hips/leg.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L/footTip.L_end
+        weight: 1
+      - path: Guard01/hips/leg.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R/footTip.R_end
+        weight: 1
+      - path: Guard01/kneeTarget.L
+        weight: 1
+      - path: Guard01/kneeTarget.L/kneeTarget.L_end
+        weight: 1
+      - path: Guard01/kneeTarget.R
+        weight: 1
+      - path: Guard01/kneeTarget.R/kneeTarget.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard01|Idle
+      takeName: Guard01|Idle
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blazer01
+        weight: 1
+      - path: Corpo01
+        weight: 1
+      - path: Guard01
+        weight: 1
+      - path: Guard01/footTarget.L
+        weight: 1
+      - path: Guard01/footTarget.L/footTarget.L_end
+        weight: 1
+      - path: Guard01/footTarget.R
+        weight: 1
+      - path: Guard01/footTarget.R/footTarget.R_end
+        weight: 1
+      - path: Guard01/footTipTarget.L
+        weight: 1
+      - path: Guard01/footTipTarget.L/footTipTarget.L_end
+        weight: 1
+      - path: Guard01/footTipTarget.R
+        weight: 1
+      - path: Guard01/footTipTarget.R/footTipTarget.R_end
+        weight: 1
+      - path: Guard01/hips
+        weight: 1
+      - path: Guard01/hips/belly
+        weight: 1
+      - path: Guard01/hips/belly/torso
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head/head_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: Guard01/hips/leg.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L/footTip.L_end
+        weight: 1
+      - path: Guard01/hips/leg.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R/footTip.R_end
+        weight: 1
+      - path: Guard01/kneeTarget.L
+        weight: 1
+      - path: Guard01/kneeTarget.L/kneeTarget.L_end
+        weight: 1
+      - path: Guard01/kneeTarget.R
+        weight: 1
+      - path: Guard01/kneeTarget.R/kneeTarget.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard01|Walking
+      takeName: Guard01|Walking
+      firstFrame: 0
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blazer01
+        weight: 1
+      - path: Corpo01
+        weight: 1
+      - path: Guard01
+        weight: 1
+      - path: Guard01/footTarget.L
+        weight: 1
+      - path: Guard01/footTarget.L/footTarget.L_end
+        weight: 1
+      - path: Guard01/footTarget.R
+        weight: 1
+      - path: Guard01/footTarget.R/footTarget.R_end
+        weight: 1
+      - path: Guard01/footTipTarget.L
+        weight: 1
+      - path: Guard01/footTipTarget.L/footTipTarget.L_end
+        weight: 1
+      - path: Guard01/footTipTarget.R
+        weight: 1
+      - path: Guard01/footTipTarget.R/footTipTarget.R_end
+        weight: 1
+      - path: Guard01/hips
+        weight: 1
+      - path: Guard01/hips/belly
+        weight: 1
+      - path: Guard01/hips/belly/torso
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head
+        weight: 1
+      - path: Guard01/hips/belly/torso/neck/head/head_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.L/arm.L/forearm.L/hand.L/hand.L_end
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R
+        weight: 1
+      - path: Guard01/hips/belly/torso/shoulder.R/arm.R/forearm.R/hand.R/hand.R_end
+        weight: 1
+      - path: Guard01/hips/leg.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L
+        weight: 1
+      - path: Guard01/hips/leg.L/knee.L/foot.L/footTip.L/footTip.L_end
+        weight: 1
+      - path: Guard01/hips/leg.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R
+        weight: 1
+      - path: Guard01/hips/leg.R/knee.R/foot.R/footTip.R/footTip.R_end
+        weight: 1
+      - path: Guard01/kneeTarget.L
+        weight: 1
+      - path: Guard01/kneeTarget.L/kneeTarget.L_end
+        weight: 1
+      - path: Guard01/kneeTarget.R
+        weight: 1
+      - path: Guard01/kneeTarget.R/kneeTarget.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
