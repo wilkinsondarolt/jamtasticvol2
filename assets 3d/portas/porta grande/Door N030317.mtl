@@ -1,0 +1,79 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 03.03.2017 09:04:17
+
+newmtl standart_metal
+	Ns 43.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7373 0.6941 0.9098
+	Kd 0.7373 0.6941 0.9098
+	Ks 0.6660 0.6660 0.6660
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder gsm\???\Metal 6.jpg
+	map_Kd D:\New folder gsm\???\Metal 6.jpg
+	map_bump D:\New folder gsm\???\Metal 6.jpg
+	bump D:\New folder gsm\???\Metal 6.jpg
+
+newmtl st_metal_2
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3098 0.3098 0.3098
+	Kd 0.3098 0.3098 0.3098
+	Ks 1.0260 1.0260 1.0260
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder gsm\metalbl.jpg
+	map_Kd D:\New folder gsm\metalbl.jpg
+	map_bump D:\New folder gsm\metalbl.jpg
+	bump D:\New folder gsm\metalbl.jpg
+
+newmtl Mat_win
+	Ns 100.0000
+	Ni 1.5000
+	d 0.4300
+	Tr 0.5700
+	Tf 0.4300 0.4300 0.4300 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.9176 0.8196 0.4235
+	Ks 0.1196 0.1196 0.1196
+	Ke 0.3000 0.3000 0.3000
+	map_refl Map__46_Reflect_Refract.tga
+
+newmtl st_wood
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7098 0.5961 0.5608
+	Kd 0.7098 0.5961 0.5608
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder gsm\wood_621.jpg
+	map_Kd D:\New folder gsm\wood_621.jpg
+	map_bump D:\New folder gsm\wood_621.jpg
+	bump D:\New folder gsm\wood_621.jpg
+
+newmtl st_tile
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9804 0.9529 0.7686
+	Kd 0.9804 0.9529 0.7686
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\New folder gsm\PalladaA.jpg
+	map_Kd D:\New folder gsm\PalladaA.jpg
+	map_bump D:\New folder gsm\PalladaA.jpg
+	bump D:\New folder gsm\PalladaA.jpg
