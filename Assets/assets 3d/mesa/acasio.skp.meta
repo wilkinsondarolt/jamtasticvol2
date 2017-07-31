@@ -1,0 +1,541 @@
+fileFormatVersion: 2
+guid: f3ca01a7f95dc3f43bb4135f06017bfb
+timeCreated: 1501532292
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000
+  assetHash:
+    serializedVersion: 2
+    Hash: ca73c6b5206be1c1bc3306bcd3d9e1b6
+  longitude: -117.933
+  latitude: 33.617
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -50.192516, y: 44.7464, z: -65.79597}
+      lookAt: {x: -8.671338, y: 17.09577, z: -15.630624}
+      up: {x: 0.249204, y: 0.9204593, z: 0.30108503}
+      fov: 26.894444
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: dining chair
+    100004: dining chair 1
+    100006: dining chair 2
+    100008: dining chair 3
+    100010: dining chair 4
+    100012: dining chair 5
+    100014: dining chair 6
+    100016: dining chair 7
+    100018: dining chair 8
+    100020: dining chair 9
+    100022: Group 101
+    100024: Group 103
+    100026: Group 105
+    100028: Group 107
+    100030: Group 109
+    100032: Group 11
+    100034: Group 111
+    100036: Group 117
+    100038: Group 119
+    100040: Group 121
+    100042: Group 123
+    100044: Group 127
+    100046: Group 129
+    100048: Group 131
+    100050: Group 133
+    100052: Group 137
+    100054: Group 139
+    100056: Group 14
+    100058: Group 141
+    100060: Group 143
+    100062: Group 147
+    100064: Group 149
+    100066: Group 151
+    100068: Group 153
+    100070: Group 157
+    100072: Group 159
+    100074: Group 16
+    100076: Group 161
+    100078: Group 163
+    100080: Group 167
+    100082: Group 169
+    100084: Group 171
+    100086: Group 173
+    100088: Group 177
+    100090: Group 179
+    100092: Group 18
+    100094: Group 181
+    100096: Group 183
+    100098: Group 187
+    100100: Group 189
+    100102: Group 191
+    100104: Group 193
+    100106: Group 197
+    100108: Group 199
+    100110: Group 20
+    100112: Group 201
+    100114: Group 203
+    100116: Group 207
+    100118: Group 209
+    100120: Group 211
+    100122: Group 213
+    100124: Group 22
+    100126: Group 24
+    100128: Group 26
+    100130: Group 28
+    100132: Group 3
+    100134: Group 30
+    100136: Group 32
+    100138: Group 34
+    100140: Group 36
+    100142: Group 38
+    100144: Group 40
+    100146: Group 42
+    100148: Group 44
+    100150: Group 46
+    100152: Group 48
+    100154: Group 5
+    100156: Group 50
+    100158: Group 52
+    100160: Group 54
+    100162: Group 56
+    100164: Group 58
+    100166: Group 60
+    100168: Group 65
+    100170: Group 67
+    100172: Group 69
+    100174: Group 7
+    100176: Group 71
+    100178: Group 73
+    100180: Group 75
+    100182: Group 77
+    100184: Group 79
+    100186: Group 81
+    100188: Group 83
+    100190: Group 85
+    100192: Group 87
+    100194: Group 89
+    100196: Group 9
+    100198: Group 91
+    100200: Group 93
+    100202: Group 95
+    100204: Group 97
+    100206: Group 99
+    100208: pedastal
+    100210: pedastal 1
+    100212: Table - Dining - Ornate
+    100214: table pedestal
+    100216: table pedestal 1
+    400000: //RootNode
+    400002: dining chair
+    400004: dining chair 1
+    400006: dining chair 2
+    400008: dining chair 3
+    400010: dining chair 4
+    400012: dining chair 5
+    400014: dining chair 6
+    400016: dining chair 7
+    400018: dining chair 8
+    400020: dining chair 9
+    400022: Group 101
+    400024: Group 103
+    400026: Group 105
+    400028: Group 107
+    400030: Group 109
+    400032: Group 11
+    400034: Group 111
+    400036: Group 117
+    400038: Group 119
+    400040: Group 121
+    400042: Group 123
+    400044: Group 127
+    400046: Group 129
+    400048: Group 131
+    400050: Group 133
+    400052: Group 137
+    400054: Group 139
+    400056: Group 14
+    400058: Group 141
+    400060: Group 143
+    400062: Group 147
+    400064: Group 149
+    400066: Group 151
+    400068: Group 153
+    400070: Group 157
+    400072: Group 159
+    400074: Group 16
+    400076: Group 161
+    400078: Group 163
+    400080: Group 167
+    400082: Group 169
+    400084: Group 171
+    400086: Group 173
+    400088: Group 177
+    400090: Group 179
+    400092: Group 18
+    400094: Group 181
+    400096: Group 183
+    400098: Group 187
+    400100: Group 189
+    400102: Group 191
+    400104: Group 193
+    400106: Group 197
+    400108: Group 199
+    400110: Group 20
+    400112: Group 201
+    400114: Group 203
+    400116: Group 207
+    400118: Group 209
+    400120: Group 211
+    400122: Group 213
+    400124: Group 22
+    400126: Group 24
+    400128: Group 26
+    400130: Group 28
+    400132: Group 3
+    400134: Group 30
+    400136: Group 32
+    400138: Group 34
+    400140: Group 36
+    400142: Group 38
+    400144: Group 40
+    400146: Group 42
+    400148: Group 44
+    400150: Group 46
+    400152: Group 48
+    400154: Group 5
+    400156: Group 50
+    400158: Group 52
+    400160: Group 54
+    400162: Group 56
+    400164: Group 58
+    400166: Group 60
+    400168: Group 65
+    400170: Group 67
+    400172: Group 69
+    400174: Group 7
+    400176: Group 71
+    400178: Group 73
+    400180: Group 75
+    400182: Group 77
+    400184: Group 79
+    400186: Group 81
+    400188: Group 83
+    400190: Group 85
+    400192: Group 87
+    400194: Group 89
+    400196: Group 9
+    400198: Group 91
+    400200: Group 93
+    400202: Group 95
+    400204: Group 97
+    400206: Group 99
+    400208: pedastal
+    400210: pedastal 1
+    400212: Table - Dining - Ornate
+    400214: table pedestal
+    400216: table pedestal 1
+    2300000: dining chair
+    2300002: dining chair 1
+    2300004: dining chair 2
+    2300006: dining chair 3
+    2300008: dining chair 4
+    2300010: dining chair 5
+    2300012: dining chair 6
+    2300014: dining chair 7
+    2300016: dining chair 8
+    2300018: dining chair 9
+    2300020: Group 101
+    2300022: Group 103
+    2300024: Group 105
+    2300026: Group 107
+    2300028: Group 109
+    2300030: Group 11
+    2300032: Group 111
+    2300034: Group 117
+    2300036: Group 119
+    2300038: Group 121
+    2300040: Group 123
+    2300042: Group 127
+    2300044: Group 129
+    2300046: Group 131
+    2300048: Group 133
+    2300050: Group 137
+    2300052: Group 139
+    2300054: Group 14
+    2300056: Group 141
+    2300058: Group 143
+    2300060: Group 147
+    2300062: Group 149
+    2300064: Group 151
+    2300066: Group 153
+    2300068: Group 157
+    2300070: Group 159
+    2300072: Group 16
+    2300074: Group 161
+    2300076: Group 163
+    2300078: Group 167
+    2300080: Group 169
+    2300082: Group 171
+    2300084: Group 173
+    2300086: Group 177
+    2300088: Group 179
+    2300090: Group 18
+    2300092: Group 181
+    2300094: Group 183
+    2300096: Group 187
+    2300098: Group 189
+    2300100: Group 191
+    2300102: Group 193
+    2300104: Group 197
+    2300106: Group 199
+    2300108: Group 20
+    2300110: Group 201
+    2300112: Group 203
+    2300114: Group 207
+    2300116: Group 209
+    2300118: Group 211
+    2300120: Group 213
+    2300122: Group 22
+    2300124: Group 24
+    2300126: Group 26
+    2300128: Group 28
+    2300130: Group 3
+    2300132: Group 30
+    2300134: Group 32
+    2300136: Group 34
+    2300138: Group 36
+    2300140: Group 38
+    2300142: Group 40
+    2300144: Group 42
+    2300146: Group 44
+    2300148: Group 46
+    2300150: Group 48
+    2300152: Group 5
+    2300154: Group 50
+    2300156: Group 52
+    2300158: Group 54
+    2300160: Group 56
+    2300162: Group 58
+    2300164: Group 60
+    2300166: Group 65
+    2300168: Group 67
+    2300170: Group 69
+    2300172: Group 7
+    2300174: Group 71
+    2300176: Group 73
+    2300178: Group 75
+    2300180: Group 77
+    2300182: Group 79
+    2300184: Group 81
+    2300186: Group 83
+    2300188: Group 85
+    2300190: Group 87
+    2300192: Group 89
+    2300194: Group 9
+    2300196: Group 91
+    2300198: Group 93
+    2300200: Group 95
+    2300202: Group 97
+    2300204: Group 99
+    2300206: pedastal
+    2300208: pedastal 1
+    2300210: Table - Dining - Ornate
+    3300000: dining chair
+    3300002: dining chair 1
+    3300004: dining chair 2
+    3300006: dining chair 3
+    3300008: dining chair 4
+    3300010: dining chair 5
+    3300012: dining chair 6
+    3300014: dining chair 7
+    3300016: dining chair 8
+    3300018: dining chair 9
+    3300020: Group 101
+    3300022: Group 103
+    3300024: Group 105
+    3300026: Group 107
+    3300028: Group 109
+    3300030: Group 11
+    3300032: Group 111
+    3300034: Group 117
+    3300036: Group 119
+    3300038: Group 121
+    3300040: Group 123
+    3300042: Group 127
+    3300044: Group 129
+    3300046: Group 131
+    3300048: Group 133
+    3300050: Group 137
+    3300052: Group 139
+    3300054: Group 14
+    3300056: Group 141
+    3300058: Group 143
+    3300060: Group 147
+    3300062: Group 149
+    3300064: Group 151
+    3300066: Group 153
+    3300068: Group 157
+    3300070: Group 159
+    3300072: Group 16
+    3300074: Group 161
+    3300076: Group 163
+    3300078: Group 167
+    3300080: Group 169
+    3300082: Group 171
+    3300084: Group 173
+    3300086: Group 177
+    3300088: Group 179
+    3300090: Group 18
+    3300092: Group 181
+    3300094: Group 183
+    3300096: Group 187
+    3300098: Group 189
+    3300100: Group 191
+    3300102: Group 193
+    3300104: Group 197
+    3300106: Group 199
+    3300108: Group 20
+    3300110: Group 201
+    3300112: Group 203
+    3300114: Group 207
+    3300116: Group 209
+    3300118: Group 211
+    3300120: Group 213
+    3300122: Group 22
+    3300124: Group 24
+    3300126: Group 26
+    3300128: Group 28
+    3300130: Group 3
+    3300132: Group 30
+    3300134: Group 32
+    3300136: Group 34
+    3300138: Group 36
+    3300140: Group 38
+    3300142: Group 40
+    3300144: Group 42
+    3300146: Group 44
+    3300148: Group 46
+    3300150: Group 48
+    3300152: Group 5
+    3300154: Group 50
+    3300156: Group 52
+    3300158: Group 54
+    3300160: Group 56
+    3300162: Group 58
+    3300164: Group 60
+    3300166: Group 65
+    3300168: Group 67
+    3300170: Group 69
+    3300172: Group 7
+    3300174: Group 71
+    3300176: Group 73
+    3300178: Group 75
+    3300180: Group 77
+    3300182: Group 79
+    3300184: Group 81
+    3300186: Group 83
+    3300188: Group 85
+    3300190: Group 87
+    3300192: Group 89
+    3300194: Group 9
+    3300196: Group 91
+    3300198: Group 93
+    3300200: Group 95
+    3300202: Group 97
+    3300204: Group 99
+    3300206: pedastal
+    3300208: pedastal 1
+    3300210: Table - Dining - Ornate
+    4300000: Mesh Table - Dining - Ornate
+    4300002: Mesh Group 3
+    4300004: Mesh Group 11
+    4300006: Mesh Group 14
+    4300008: Mesh pedastal
+    4300010: Mesh dining chair
+    4300012: Mesh Group 117
+    4300014: Mesh Group 119
+    4300016: Mesh Group 123
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

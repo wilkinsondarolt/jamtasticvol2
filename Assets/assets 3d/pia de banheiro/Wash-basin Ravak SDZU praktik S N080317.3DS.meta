@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 23fd62faa32f7fd4c912bb4839a88bf5
+timeCreated: 1501476358
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Circle001
+    100002: Circle002
+    100004: Cylinder00
+    100006: Cylinder01
+    100008: Cylinder02
+    100010: Cylinder03
+    100012: Cylinder04
+    100014: Cylinder05
+    100016: Rectangl10
+    100018: Rectangl11
+    100020: Rectangl12
+    100022: Rectangl13
+    100024: Rectangl14
+    100026: Rectangl15
+    100028: Rectangl16
+    100030: Rectangl17
+    100032: Rectangl18
+    100034: Rectangl19
+    100036: Rectangle0
+    100038: Rectangle1
+    100040: Rectangle2
+    100042: Rectangle3
+    100044: Rectangle4
+    100046: Rectangle5
+    100048: Rectangle6
+    100050: Rectangle7
+    100052: Rectangle8
+    100054: Rectangle9
+    100056: Sphere001
+    100058: Sphere002
+    100060: Sphere004
+    100062: Tube001
+    100064: //RootNode
+    400000: Circle001
+    400002: Circle002
+    400004: Cylinder00
+    400006: Cylinder01
+    400008: Cylinder02
+    400010: Cylinder03
+    400012: Cylinder04
+    400014: Cylinder05
+    400016: Rectangl10
+    400018: Rectangl11
+    400020: Rectangl12
+    400022: Rectangl13
+    400024: Rectangl14
+    400026: Rectangl15
+    400028: Rectangl16
+    400030: Rectangl17
+    400032: Rectangl18
+    400034: Rectangl19
+    400036: Rectangle0
+    400038: Rectangle1
+    400040: Rectangle2
+    400042: Rectangle3
+    400044: Rectangle4
+    400046: Rectangle5
+    400048: Rectangle6
+    400050: Rectangle7
+    400052: Rectangle8
+    400054: Rectangle9
+    400056: Sphere001
+    400058: Sphere002
+    400060: Sphere004
+    400062: Tube001
+    400064: //RootNode
+    2300000: Circle001
+    2300002: Circle002
+    2300004: Cylinder00
+    2300006: Cylinder01
+    2300008: Cylinder02
+    2300010: Cylinder03
+    2300012: Cylinder04
+    2300014: Cylinder05
+    2300016: Rectangl10
+    2300018: Rectangl11
+    2300020: Rectangl12
+    2300022: Rectangl13
+    2300024: Rectangl14
+    2300026: Rectangl15
+    2300028: Rectangl16
+    2300030: Rectangl17
+    2300032: Rectangl18
+    2300034: Rectangl19
+    2300036: Rectangle0
+    2300038: Rectangle1
+    2300040: Rectangle2
+    2300042: Rectangle3
+    2300044: Rectangle4
+    2300046: Rectangle5
+    2300048: Rectangle6
+    2300050: Rectangle7
+    2300052: Rectangle8
+    2300054: Rectangle9
+    2300056: Sphere001
+    2300058: Sphere002
+    2300060: Sphere004
+    2300062: Tube001
+    3300000: Circle001
+    3300002: Circle002
+    3300004: Cylinder00
+    3300006: Cylinder01
+    3300008: Cylinder02
+    3300010: Cylinder03
+    3300012: Cylinder04
+    3300014: Cylinder05
+    3300016: Rectangl10
+    3300018: Rectangl11
+    3300020: Rectangl12
+    3300022: Rectangl13
+    3300024: Rectangl14
+    3300026: Rectangl15
+    3300028: Rectangl16
+    3300030: Rectangl17
+    3300032: Rectangl18
+    3300034: Rectangl19
+    3300036: Rectangle0
+    3300038: Rectangle1
+    3300040: Rectangle2
+    3300042: Rectangle3
+    3300044: Rectangle4
+    3300046: Rectangle5
+    3300048: Rectangle6
+    3300050: Rectangle7
+    3300052: Rectangle8
+    3300054: Rectangle9
+    3300056: Sphere001
+    3300058: Sphere002
+    3300060: Sphere004
+    3300062: Tube001
+    4300000: Rectangle3
+    4300002: Rectangle0
+    4300004: Rectangle1
+    4300006: Rectangle2
+    4300008: Rectangle4
+    4300010: Rectangle5
+    4300012: Rectangle6
+    4300014: Rectangle7
+    4300016: Rectangle8
+    4300018: Rectangle9
+    4300020: Rectangl10
+    4300022: Rectangl11
+    4300024: Rectangl12
+    4300026: Rectangl13
+    4300028: Rectangl14
+    4300030: Rectangl15
+    4300032: Rectangl16
+    4300034: Cylinder00
+    4300036: Cylinder01
+    4300038: Cylinder02
+    4300040: Cylinder03
+    4300042: Cylinder04
+    4300044: Cylinder05
+    4300046: Sphere002
+    4300048: Sphere004
+    4300050: Circle002
+    4300052: Circle001
+    4300054: Tube001
+    4300056: Rectangl17
+    4300058: Rectangl18
+    4300060: Sphere001
+    4300062: Rectangl19
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
