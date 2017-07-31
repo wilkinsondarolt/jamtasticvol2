@@ -97,6 +97,7 @@
     <None Include="Assets\assets 3d\box\archibase.net.txt" />
     <None Include="Assets\assets 3d\cadeira de escritório\archibase.net.txt" />
     <None Include="Assets\assets 3d\cadeira\archibase.net.txt" />
+    <None Include="Assets\assets 3d\decoração\archibase.net.txt" />
     <None Include="Assets\assets 3d\decoração\objeto\archibase.net.txt" />
     <None Include="Assets\assets 3d\decoração\tela de madeira\archibase.net.txt" />
     <None Include="Assets\assets 3d\fogão\archibase.net.txt" />
@@ -113,10 +114,10 @@
     <None Include="Assets\assets 3d\pia de cozinha\archibase.net.txt" />
     <None Include="Assets\assets 3d\planta\archibase.net.txt" />
     <None Include="Assets\assets 3d\poltrona\archibase.net.txt" />
-    <None Include="Assets\assets 3d\portas\porta grande\archibase.net.txt" />
-    <None Include="Assets\assets 3d\portas\porta normal\archibase.net.txt" />
     <None Include="Assets\assets 3d\rack\archibase.net.txt" />
     <None Include="Assets\assets 3d\sofa\archibase.net.txt" />
+    <None Include="Assets\assets 3d\vaso sanitario\archibase.net.txt" />
+    <None Include="Assets\assets 3d\wardrobe\archibase.net.txt" />
     <None Include="Assets\assets 3d\whashingmachine\archibase.net.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

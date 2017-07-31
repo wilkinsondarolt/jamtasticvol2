@@ -3,7 +3,7 @@ guid: 9ee289099e8d9b34bb6ce7f378d4b0f7
 timeCreated: 1501454582
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: 04_Cassin0
     100002: 04_Cassin1
@@ -72,6 +72,19 @@ ModelImporter:
     4300020: ChamferBo1
     4300022: 04_Cassin0
     4300024: 04_Cassin1
+    6400000: 04_Cassin0
+    6400002: 04_Cassin1
+    6400004: 04_Cassina
+    6400006: Box004
+    6400008: Box006
+    6400010: ChamferBo0
+    6400012: ChamferBo1
+    6400014: ChamferBox
+    6400016: Cylinder00
+    6400018: Cylinder01
+    6400020: Cylinder02
+    6400022: Cylinder03
+    6400024: Shape002
   materials:
     importMaterials: 1
     materialName: 0
@@ -94,14 +107,18 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 0.002
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    importVisibility: 1
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -117,6 +134,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
