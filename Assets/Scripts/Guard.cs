@@ -24,16 +24,9 @@ public class Guard : MonoBehaviour
         animControl = GameObject.FindObjectOfType<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         viewAngle = spotlight.spotAngle * 0.8f;
-        originalSpotlightColour = spotlight.color;
+        originalSpotlightColour = spotlight.color;        
 
-        Vector3[] waypoints = new Vector3[pathHolder.childCount];
-        for (int i = 0; i < waypoints.Length; i++)
-        {
-            waypoints[i] = pathHolder.GetChild(i).position;
-            waypoints[i] = new Vector3(waypoints[i].x, transform.position.y, waypoints[i].z);
-        }
-
-        StartCoroutine(FollowPath(waypoints));
+        StartCoroutine(FollowPath(pathHolder.GetComponent<PathHolder>().returnWaypoints()));
     }
 
     void Update()
@@ -118,17 +111,6 @@ public class Guard : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        Vector3 startPosition = pathHolder.GetChild(0).position;
-        Vector3 previousPosition = startPosition;
-
-        foreach (Transform waypoint in pathHolder)
-        {
-            Gizmos.DrawSphere(waypoint.position, .3f);
-            Gizmos.DrawLine(previousPosition, waypoint.position);
-            previousPosition = waypoint.position;
-        }
-        Gizmos.DrawLine(previousPosition, startPosition);
-
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, transform.forward * viewDistance);
     }
