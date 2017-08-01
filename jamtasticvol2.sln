@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jamtasticvol2", "Assembly-CSharp.csproj", "{A67378DE-397D-5B32-DB67-75B8B430F178}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jamtasticvol2.CSharp", "jamtasticvol2.CSharp.csproj", "{0D54CB48-0CC1-3421-1C0F-FBAF80A04D7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A67378DE-397D-5B32-DB67-75B8B430F178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A67378DE-397D-5B32-DB67-75B8B430F178}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A67378DE-397D-5B32-DB67-75B8B430F178}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A67378DE-397D-5B32-DB67-75B8B430F178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D54CB48-0CC1-3421-1C0F-FBAF80A04D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D54CB48-0CC1-3421-1C0F-FBAF80A04D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D54CB48-0CC1-3421-1C0F-FBAF80A04D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D54CB48-0CC1-3421-1C0F-FBAF80A04D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
