@@ -53,8 +53,11 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Guard.cs" />
+     <Compile Include="Assets\Scripts\MenuButtons.cs" />
      <Compile Include="Assets\Scripts\PathHolder.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SoundController.cs" />
+     <Compile Include="Assets\Scripts\SoundPlayer.cs" />
      <Compile Include="Assets\Scripts\TopdownCamera.cs" />
      <None Include="Assets\assets 3d\vaso sanitario\archibase.net.txt" />
      <None Include="Assets\assets 3d\pia de cozinha\archibase.net.txt" />
